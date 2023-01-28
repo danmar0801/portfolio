@@ -5,6 +5,7 @@
 
 :root {
     --white: #fcfcfc;
+    --orange: #ffc107;
 }
 
 .navbar-light .navbar-toggler {
@@ -87,7 +88,7 @@
 }
 
 .navbar-toggler.collapsed .toggler-icon {
-    background: #fcfcfc;
+    background: var(--orange);
 }
 
 .nav-item {
@@ -98,4 +99,16 @@
     .nav-item {
         padding: 0px;
     }
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+#article-card {
+    width: 20rem;
+}
+
+#article-card img {
+    height: 40%;
 }
